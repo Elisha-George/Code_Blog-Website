@@ -135,14 +135,8 @@ margin-top: 50px;
 
 /* PROJECTS CSS */
 
-.projects img{
-
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-
+.project{
+    background-color: white;
 }
-
 
 /* PROJECTS CSS */
