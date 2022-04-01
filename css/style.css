@@ -1,0 +1,148 @@
+/* FONTS */
+@import url(//db.onlinewebfonts.com/c/df1921b119f776765091e2a62995f09f?family=Lydian);
+@font-face {font-family: "Lydian"; src: url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.eot"); src: url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.woff") format("woff"), url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/df1921b119f776765091e2a62995f09f.svg#Lydian") format("svg"); }
+
+
+/* GENERAL CSS CODE FORMAT FOR THE WHOLE WEBSITE */
+
+body{
+    
+    background-color: black;
+}
+
+.h1_logoHeading{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin-top: 20px;
+    text-shadow: 4px 4px 22px rgb(0, 0, 0);
+    background-color: red;
+border-radius: 30px;
+   
+}
+
+
+.h1MainHeading{
+    /* font-family: 'Lobster', cursive; */
+    font-family: "Lydian";
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 3px red;
+}
+
+.h5heading{
+    /* for date and 'read th blog' */
+    color: white;  
+    text-decoration: none;
+    
+
+}
+.blog_para{
+    color: white;
+    /* word-spacing: 2px; */
+    line-height: 33px;
+    
+}
+.btnRead{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    border-radius: 22px;
+    color: white;
+    border: none;
+    font-family: 'Lobster', cursive;
+    width: 150px;
+
+    font-size: 25px;
+    
+
+}
+.btnRead:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+
+}
+/* GENERAL CSS CODE FORMAT FOR THE WHOLE WEBSITE */
+
+
+/* Nav Bar
+ */
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+
+
+.navigation ul li a:hover{
+    background-color: red;
+    border-radius: 30px;
+    /* transition-timing-function: linear; */
+    transition: 0.5s;
+}
+
+
+
+/* BLOGS CSS */
+.blogs{
+    margin-top: 45px;
+    /* margin-left: 40px;
+    margin-right: 40px;
+     */
+
+}
+.blogs .row{
+margin-top: 50px;
+}
+#right1{
+    background-image: url("../images/right2.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     border-radius: 30px;
+     margin-top: 80px;
+
+    
+    
+}
+
+
+#right2{
+    background-image: url("../images/right3.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     border-radius: 30px;
+     margin-top: 80px;
+
+    
+    
+}
+
+/* BLOGS CSS */
+
+
+/* PROJECTS CSS */
+
+.projects img{
+
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* PROJECTS CSS */
